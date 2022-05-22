@@ -18,7 +18,7 @@ export async function getGoodDetail(id) {
 }
 
 export async function getGoodByName(name, skip, take) {
-    return await http.get('/good/serch', {
+    return await http.get('/good/search', {
         params: {
             goodName: name,
             skip,

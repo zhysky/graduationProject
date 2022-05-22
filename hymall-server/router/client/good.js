@@ -26,7 +26,7 @@ good.get('/detail/:id', async (req, res) => {
 	res.send(data);
 });
 
-good.get('/serch', async (req, res) => {
+good.get('/search', async (req, res) => {
 	const { goodName = '', skip = 0, take = 24, order = '' } = req.query;
 	const data = await getGoodByName(goodName, skip, take, order);
 	res.send(data);
