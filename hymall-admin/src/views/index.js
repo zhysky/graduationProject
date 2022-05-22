@@ -1,0 +1,9 @@
+export const Main = () => import('./Main');
+export const Login = () => import('./Login');
+export const CategoryAdd = () => import('./CategoryAdd');
+export const CategoryList = () => import('./CategoryList');
+export const GoodList = () => import('./GoodList');
+export const GoodAdd = () => import('./GoodAdd');
+export const GoodEdit = () => import('./GoodEdit');
+export const CarouselList = () => import('./CarouselList');
+export const CarouselAdd = () => import('./CarouselAdd');

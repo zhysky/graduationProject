@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"outDir": "./dist",
+		"baseUrl": "./",
+		"paths": {
+			"@entity/*": [
+				"./entity/*"
+			]
+		},
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+	}
+}

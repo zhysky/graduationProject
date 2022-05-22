@@ -1,0 +1,10 @@
+export const Main = () => import('./Main');
+export const Login = () => import('./Login');
+export const Register = () => import('./Register');
+export const Details = () => import('./Details');
+export const Cart = () => import('./Cart');
+export const Home = () => import('./Home');
+export const Order = () => import('./Order');
+export const Profile = () => import('./Profile');
+export const Search = () => import('./Search');
+export const About = () => import('./About');
